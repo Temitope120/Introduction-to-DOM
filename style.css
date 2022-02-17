@@ -1,10 +1,57 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    /* background-image: linear-gradient(to right top, #f1f9fa, #e2eef2, #d4e4ea, #c8d8e3, #bdcddc);background-image: linear-gradient(to right top, #29292c, #313234, #3a3b3d, #434445, #4c4d4e); */
+}
 form{
     display: block;
     width: 100%;
     /* background-color:; */
 }
 form input{
-    /* width: 40px; */
+    width: 300px;
     height: 40px;
     margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+input[type="checkbox"], input[type="radio"]{
+    display: inline;
+    width: 25px;
+    height: 18px;
+}
+p{
+    color: blue;
+    font-weight: bold;
+}
+#submit{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 15px 30px;
+    margin-top:  20px;
+    border-radius: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+#submit:hover{
+    text-decoration: none;
+    color: white;
+    background: rgb(50, 50, 233);
+    padding: 15px 30px;
+    margin-top:  20px;
+    border-radius: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+.welcome-text{
+    text-align: center;
+    color: blue;
 }
